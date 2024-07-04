@@ -22,3 +22,123 @@
 --GrayishBlue: hsl(208, 11%, 55%);
 
 }
+
+.main-container {
+    width: 100vw;
+    height: 700px;
+    background-image: url(images/bg-hero-desktop.svg);
+    background-size: 65%;
+    background-color: var(--VeryPaleCyan);
+    display: flex;
+    flex-direction: row;
+
+
+
+}
+
+.header-desktop__logo {
+    margin-top: 60px;
+    margin-left: 40px;
+
+}
+
+.header-desktop__logo img {
+    width: 140px;
+    height: 25px;
+}
+
+.button1 {
+    margin-left: 1300px;
+    margin-top: -60px;
+}
+
+.container-mockups {
+    margin-left: 650px;
+    margin-top: -125px;
+
+}
+.container-mockups img  {
+    width: 750px;
+    height: 500px;
+    margin-top: -175px;
+    margin-left: -100px;
+}
+
+.text-container {
+    margin-left: 70px;
+    margin-top: 110px;
+
+
+
+
+}
+
+.button1 {
+
+    background-color: var(--GrayishBlue);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    width: 170px;
+
+}
+.button2 {
+    background-color: var(--Pink);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    width: 170px;
+
+}
+
+.text-container-grow {
+    margin-top: 300px;
+    margin-left: 150px;
+}
+
+.container-grow img {
+    width: 600px;
+    height: 350px;
+    margin-left: 700px;
+    margin-top: -250px;
+
+}
+
+
+
+.container-flow {
+   display: flex;
+   flex-direction: row;
+   margin-top: 120px;
+
+}
+.container-flow img {
+    width: auto;
+    height: 350px;
+
+}
+.text-container-flow {
+    padding: 80px;
+}
+
+
+.text-container-users {
+    display: flex;
+    flex-direction: row;
+    margin-top: 200px;
+
+}
+
+.container-user img {
+    width: auto;
+    height: 350px;
+    padding-left: 80px;
+
+}
+
+.text-container-users p {
+    margin-top: 140px;
+
+}
